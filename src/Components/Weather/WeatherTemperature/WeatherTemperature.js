@@ -4,7 +4,7 @@ const WeatherTemperature = (props) => {
     const {temperature, description} = props;
     return (
         <div className="weather__temperature">
-            <p className="weather__temperature--value">{temperature} + " ˙C"</p>
+            <p className="weather__temperature--value">{temperature} °C</p>
             <p className="weather__temperature--description">{description}</p>
         </div>
     )
